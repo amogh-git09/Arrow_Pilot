@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.amogh.androidgames.arrowpilotrev"
-    android:versionCode="1"
-    android:versionName="1.0" >
-<uses-sdk
+    package="com.amogh.androidgames.arrowpilot"
+    android:versionCode="8"
+    android:versionName="1.3" >
+
+    <uses-sdk
         android:minSdkVersion="9"
         android:targetSdkVersion="21" />
 
@@ -16,7 +18,7 @@
         android:orientation="horizontal"
         android:theme="@style/AppTheme">
          <activity
-            android:name="com.amogh.androidgames.arrowpilotrev.ArrowPilot"
+            android:name="com.amogh.androidgames.arrowpilot.ArrowPilot"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape"
     
